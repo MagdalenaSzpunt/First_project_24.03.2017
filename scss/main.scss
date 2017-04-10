@@ -10,6 +10,8 @@ body {
     content: "";
 }
 $base-width: 100%/12;
+$mainSecondColor: lightGray;
+$firstColor: #00C29F;
 
 .container {
     width: 100%;
@@ -42,11 +44,8 @@ $base-width: 100%/12;
 }
 
 
-.chevron{
-  width: 4%;
-  height: 4%;
-}
 
+//////Sekcje
 header {
     background-color: black;
     color: white;
@@ -54,11 +53,25 @@ header {
     padding-bottom: 5px;
 }
 
-footer {
+.third{
   width: 100%;
-  background-color: silver;
+  background-color: $mainSecondColor;
 }
 
+.second{
+  width: 100%;
+  background-color: white;
+}
+.fourth{
+  width: 100%;
+  background-color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: $mainSecondColor;
+}
+////////ogólne wyrównania, boldy, uppercasy
 .displayFlex {
   display: flex;
 }
@@ -88,10 +101,32 @@ footer {
 }
 
 
+//////////////Inne
 
+hr {
+  height: 20px;
+  width: 100%;
+  color: $firstColor;
+}
 
+.firstColor {
+    color: $firstColor;
+    font-family: "ralewaymedium";
+}
 
+.chevron{
+  width: 30%;
+  height: 30%;
+}
 
+#pLogo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "ralewaymedium";
+}
+.menu {
+    list-style: none;
+}
 
 
 ////
