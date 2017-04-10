@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>My first project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/stylesheetFonty.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="Magdalena Szpunt,Szpunt, Magdalena, Magda, magda, Maga">
@@ -12,33 +13,120 @@
 
 <body>
     <header>
-        <p id="pLogo"> sit <span class="kolorZielen"> on </span> chair </p>
-        <nav>
-            <ul class="menu">
-                <li class="liMenu"> o firmie</li>
-                <li class="liMenu"> Galeria</li>
-                <li class="liMenu"> Kontakt </li>
-            </ul>
-        </nav>
-        <div class="celar"></div>
-    </header>
-    <section class="first">
-        <div class="first1">
-            <img class="chevron displayInline" src="images/leftChevron.svg">
-            <img class="displayInline"src="images/black_chair.png" width="40%">
-            <div class="article1 displayInline">
-                <p class="p1"> sit on our chair </p>
-                <p> Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle
-                    elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem
-                    przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker
-                </p>
-                <form>
-                    <input class="input inputFirst displayInline" type="submit" value="zobacz więcej">
-                </form>
+        <div class="row container">
+            <div class="col-12 displayFlex">
+                <p id="pLogo"> sit <span class="kolorZielen"> on </span> chair </p>
+                <nav>
+                    <ul class="menu alignItselfEnd">
+                        <li class="liMenu"> o firmie</li>
+                        <li class="liMenu"> Galeria</li>
+                        <li class="liMenu"> Kontakt </li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
             </div>
-            <img class="chevron displayInline" src="images/rightChevron.svg">
+        </div>
+    </header>
+
+
+
+
+
+
+    <section class="first">
+        <div class="container">
+            <div class="row displayFlex">
+                <div class="first1">
+                    <img class="chevron displayInline" src="images/leftChevron.svg">
+                    <img class="displayInline" src="images/black_chair.png" width="40%">
+                    <div class="article1 displayInline">
+                        <p class="p1"> sit on our chair </p>
+                        <p> Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany
+                            przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum
+                            oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker
+                        </p>
+                        <form>
+                            <input class="input inputFirst displayInline" type="submit" value="zobacz więcej">
+                        </form>
+                    </div>
+                    <img class="chevron displayInline" src="images/rightChevron.svg">
+                </div>
+            </div>
         </div>
     </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-4">pierwszy obrazem</div>
+                    <div class="col-4">drugi obrzek</div>
+                    <div class="col-4">trzeci obrazek</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    tu wnou napis kontakt
+                </div>
+                <div class="col-12">
+                    <div class="col-4">pierwsza cena</div>
+                    <div class="col-4">druga cena</div>
+                    <div class="col-4">trzecie cena</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    tu pierwszy wierz z napisem kontakt
+                </div>
+                <div class="col-12 ">
+                    <div class="col-6">
+                        <div class="row">imię</div>
+                        <div class="row">email</div>
+                        <div class="row">wiadomość</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">krzeslo</div>
+                        <div class="row">input</div>
+                        <div class="row">wyślij</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row displayFlex">
+                <div class="col-8">
+                    <p>Copyright 2017 | All Rights Reseved. - Sit On Chair</p>
+                </div>
+                <div class="col-4 displayFlex justifyContentCenter">
+                    <div class="col-7 displayFlex alignItemsCenter">
+                        <img src="images/flickr.png"/>
+                        <img src="images/pinterest.png" />
+                        <img src="images/twitter.png"/>
+                        <img src="images/vimeo.png" />
+                    </div>
+                    <div class="col-5 displayFlex justifyContentCenter">
+                        <p class="toUpperCase bold">sit on chair</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
